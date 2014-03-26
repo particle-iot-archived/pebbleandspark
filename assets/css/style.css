@@ -6,7 +6,27 @@ body {
   text-align: center;
 }
 
-@media (min-width: 600px) {
+img {
+  width: 360px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #ddd;
+}
+
+h2 {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-weight: 100;
+}
+
+
+@media (min-width: 740px) {
   #pebble, #spark {
     float: left;
     height: 300px;
@@ -28,27 +48,10 @@ body {
   }
 }
 
-img {
-  width: 360px;
-}
 
-@media (max-width: 599px) {
+@media (max-width: 739px) {
   .hero {
     width: 100%;
     padding-top: 50px;
   }
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-a:hover, a:focus {
-  color: #ddd;
-}
-
-h2 {
-  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
-  font-weight: 100;
 }
