@@ -1,0 +1,54 @@
+body {
+  background: #4e5052;
+}
+
+#pebble, #spark {
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  #pebble, #spark {
+    float: left;
+    height: 300px;
+
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
+  #pebble {
+    left: 0;
+    right: 50%;
+  }
+
+  #spark {
+    left: 50%;
+    right: 0;
+  }
+}
+
+img {
+  width: 360px;
+}
+
+@media (max-width: 599px) {
+  .hero {
+    width: 100%;
+    padding-top: 50px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover, a:focus {
+  color: #ddd;
+}
+
+h2 {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-weight: 100;
+}
